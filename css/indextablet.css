@@ -1,0 +1,38 @@
+:root {
+    --color1: #212529;
+    --color2: #343A40;
+    --color3: #495057;
+    --color4: #6C757D;
+    --color5: #ADB5BD;
+    --color6: #CED4DA;
+    --color7: #DEE2E6;
+    --color8: #E9ECEF;
+    --color9: #F8F9FA;
+}
+
+.main-nav {
+    display: block;
+    width: 100%;
+    height: 5vh;
+    background-color: var(--color3);
+}
+.main-nav ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-nav__item {
+    display: inline-block;
+    padding: .5rem 1rem;    
+}
+.main-nav__item a {
+    color: var(--color7);
+    text-decoration: none;
+}
+.main-nav__item:hover {
+    box-shadow: inset 0px 3px 30px -14px rgba(0,0,0,0.71);
+}
+.main-nav__item a:hover{
+    color: var(--color5);
+}

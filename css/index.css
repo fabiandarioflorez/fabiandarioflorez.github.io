@@ -1,0 +1,40 @@
+:root {
+    --color1: #212529;
+    --color2: #343A40;
+    --color3: #495057;
+    --color4: #6C757D;
+    --color5: #ADB5BD;
+    --color6: #CED4DA;
+    --color7: #DEE2E6;
+    --color8: #E9ECEF;
+    --color9: #F8F9FA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-header {
+    box-shadow: inset 0px 0px 79px -28px rgba(0,0,0,0.75);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color9);
+    background-color: var(--color3);
+}
+.main-header span {
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.main-nav {
+    display: none;
+}

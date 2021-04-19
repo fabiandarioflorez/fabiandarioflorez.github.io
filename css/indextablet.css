@@ -36,3 +36,18 @@
 .main-nav__item a:hover{
     color: var(--color5);
 }
+.personal-info {
+    flex-direction: row;
+    max-width: 1000px;
+}
+.personal-info figure{
+    width: 40%;
+}
+.personal-info figure img {
+    align-self: center;
+    width: 80%;
+}
+.personal-info__text {
+    align-self: center;
+    width: 60%;
+}

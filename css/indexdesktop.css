@@ -9,9 +9,23 @@
     --color8: #E9ECEF;
     --color9: #F8F9FA;
 }
-
-
 .main-nav ul {
     margin: 0 auto;
     width: 70%;
+}
+.personal-info {
+    margin:0 auto;
+    flex-direction: row;
+}
+.personal-info figure{
+    width: 40%;
+}
+.personal-info figure img {
+    align-self: center;
+    width: 80%;
+}
+.personal-info__text {
+    padding-right:2rem ;
+    align-self: center;
+    width: 60%;
 }

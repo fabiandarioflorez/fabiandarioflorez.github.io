@@ -24,7 +24,7 @@ body {
 }
 .main-header {
     box-shadow: inset 0px 0px 79px -28px rgba(0,0,0,0.75);
-    height: 10vh;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;

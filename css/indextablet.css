@@ -13,7 +13,7 @@
 .main-nav {
     display: block;
     width: 100%;
-    height: 5vh;
+    height: 3rem;
     background-color: var(--color3);
 }
 .main-nav ul {
